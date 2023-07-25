@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 이전 배포된 파일들 삭제 (옵션)
-rm -rf /home/ubuntu/deploy/*
+# rm -rf /home/ubuntu/deploy/*
 
 # 새로 배포된 파일들 압축 해제
 unzip /home/ubuntu/deploy.zip -d /home/ubuntu/deploy
